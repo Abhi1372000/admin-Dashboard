@@ -1,0 +1,24 @@
+.main-content {
+  background: rgb(28, 208, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 208, 255, 1) 0%,
+    rgba(167, 167, 255, 1) 100%
+  );
+  flex: 1;
+  padding: 32px;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
